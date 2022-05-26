@@ -1,0 +1,60 @@
+@import "./base";
+@import "./nav";
+@import "./menu";
+@import "./project";
+@import "./skills";
+@import "./image";
+@import "./AboutMe";
+@import "./footer";
+
+header {
+    height: 30vh;
+    width: 100%;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+    }
+
+    h1 {
+        color: $color-white;
+        font-size: 50px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        color: $color-white;
+        font-size: 50px;
+        margin: 10px 0;
+    }
+}
+
+.Introduction {
+    height: auto;
+    width: 100%;
+    background-color: $color-primary;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: $color-white;
+        font-size: 30px;
+        text-decoration: underline;
+        padding: 0 50px;
+    }
+
+    p {
+        color: $color-white;
+        font-size: 25px; 
+        text-align: center;
+        margin: 50 100px;
+        padding: 0 50px;
+    }
+}
