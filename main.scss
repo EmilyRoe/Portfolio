@@ -1,11 +1,11 @@
-@import "./base";
-@import "./nav";
-@import "./menu";
-@import "./project";
-@import "./skills";
-@import "./image";
-@import "./AboutMe";
-@import "./footer";
+@import "./scss/base";
+@import "./scss/nav";
+@import "./scss/menu";
+@import "./scss/project";
+@import "./scss/skills";
+@import "./scss/image";
+@import "./scss/AboutMe";
+@import "./scss/footer";
 
 header {
     height: 30vh;
