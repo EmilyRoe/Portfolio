@@ -123,10 +123,11 @@ a:hover {
 .project #projects-heading {
   display: flex;
   color: #333333;
-  font-size: 50px;
-  text-decoration: underline;
-  justify-content: center;
-  text-align: center;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  justify-content: left;
+  text-align: left;
   padding: 20px;
 }
 .project [class^=row] {
@@ -143,14 +144,15 @@ a:hover {
   align-items: center;
 }
 .project [class^=col] .project-titles {
-  padding: 75px 0px;
+  padding: 10px 10px;
+  margin: 0px 0px;
   font-size: 20px;
 }
 .project [class^=col] .project-image {
   display: flex;
-  width: 50%;
+  width: 60%;
   height: 250px;
-  border: 1px solid black;
+  border: none;
   justify-content: center;
   align-items: center;
 }
@@ -163,10 +165,11 @@ a:hover {
 .Skills #skills-heading {
   display: flex;
   color: #333333;
-  font-size: 50px;
-  text-decoration: underline;
-  justify-content: center;
-  text-align: center;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  justify-content: right;
+  text-align: right;
 }
 .Skills [class^=row] {
   display: flex;
