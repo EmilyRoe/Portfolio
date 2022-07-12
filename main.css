@@ -98,7 +98,8 @@ a:hover {
 }
 .menu .menu-nav a {
   color: #Fafafa;
-  text-decoration: underline;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
   text-shadow: 1px 1px 2px gray;
   font-size: 40px;
   padding: 30px 0px;
@@ -143,11 +144,6 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.project [class^=col] .project-titles {
-  padding: 10px 10px;
-  margin: 0px 0px;
-  font-size: 20px;
-}
 .project [class^=col] .project-image {
   display: flex;
   width: 60%;
@@ -155,6 +151,121 @@ a:hover {
   border: none;
   justify-content: center;
   align-items: center;
+}
+.project .btn {
+  border-radius: 10px;
+  background-color: #17353D;
+  color: white;
+}
+.project .calculator-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.project .calculator-proj .calculator-proj-text {
+  margin-top: 160px;
+}
+.project .calculator-proj .calculator-project-image {
+  display: flex;
+  margin-left: 100px;
+  width: 75%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -20px -20px 0px 0px #17353D;
+}
+.project .morse-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.project .morse-proj .morse-proj-text {
+  margin-top: 160px;
+}
+.project .morse-proj .morse-project-image {
+  display: flex;
+  margin-left: 100px;
+  width: 75%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -20px -20px 0px 0px #17353D;
+}
+.project .javascript-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.project .javascript-proj .javascript-proj-text {
+  margin-top: 160px;
+}
+.project .javascript-proj .javascript-project-image {
+  display: flex;
+  margin-left: 100px;
+  width: 75%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -20px -20px 0px 0px #17353D;
+}
+.project .space-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.project .space-proj .space-proj-text {
+  margin-top: 160px;
+}
+.project .space-proj .space-project-image {
+  display: flex;
+  margin-left: 100px;
+  width: 75%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -20px -20px 0px 0px #17353D;
+}
+.project .punk-proj {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid black;
+  width: 1000px;
+  height: 300px;
+  margin: 30px 30px;
+}
+.project .punk-proj .punk-proj-text {
+  margin-top: 160px;
+}
+.project .punk-proj .punk-project-image {
+  display: flex;
+  margin-left: 100px;
+  width: 75%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: -20px -20px 0px 0px #17353D;
 }
 
 .Skills {
@@ -256,21 +367,25 @@ a:hover {
   padding: 50px 70px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .About-Me #about-me-heading {
+  display: flex;
   color: #Fafafa;
-  font-size: 30px;
-  text-decoration: underline;
-  padding: 0 50px;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  justify-content: left;
+  text-align: left;
+  padding: 20px;
 }
 .About-Me p {
   color: #Fafafa;
   font-size: 25px;
-  text-align: center;
+  text-align: right;
   margin: 50 100px;
   padding: 0 50px;
+  justify-content: right;
+  align-items: right;
 }
 
 .contact {
@@ -346,11 +461,13 @@ header h1 {
   color: #Fafafa;
   font-size: 50px;
   margin: 10px 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 header h2 {
   color: #Fafafa;
   font-size: 50px;
   margin: 10px 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .Introduction {
@@ -360,19 +477,21 @@ header h2 {
   padding: 50px 70px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .Introduction h1 {
+  display: flex;
   color: #Fafafa;
-  font-size: 30px;
-  text-decoration: underline;
-  padding: 0 50px;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  justify-content: right;
+  text-align: right;
+  padding: 20px;
 }
 .Introduction p {
   color: #Fafafa;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   margin: 50 100px;
   padding: 0 50px;
 }

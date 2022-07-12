@@ -23,7 +23,7 @@
                 <a href="#projects-heading">Projects</a>
                 <a href="#skills-heading">Skills</a>
                 <a href="#about-me-heading">About Me</a>
-                <a href="#">Contact</a>
+                <a href="#contact-heading">Contact</a>
             </div>
         </div>
     </nav>
@@ -40,15 +40,15 @@
         <div class="menu">
             <img src="./assets/bicycle-789648_1920.jpg" alt="Bike image" class="bg">
             <nav class="menu-nav">
-                <a href="#projects-heading">Projects</a>
-                <a href="#skills-heading">Skills</a>
-                <a href="#about-me-heading">About Me</a>
-                <a href="#contact-heading">Contact</a>
+                <a href="#projects-heading">Projects.</a>
+                <a href="#skills-heading">Skills.</a>
+                <a href="#about-me-heading">About Me.</a>
+                <a href="#contact-heading">Contact.</a>
             </nav>
         </div>
 
         <section class="Introduction">
-            <h1>Introduction</h1>
+            <h1>Introduction.</h1>
             <p>Hi there, I’m Emily and welcome to my portfolio. 
             I am have just completed a self-paced part-time course in Software Development and here are some examples of my work. 
             I am based in London and looking to pursue a career that challenges me and that I can be proud of.</p>
@@ -58,24 +58,66 @@
             <h1 id="projects-heading">Projects.</h1>
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <a href="https://emilyroe.github.io/JS-Calculator/">
-                        <p class="project-titles">Calculator Project: This is my first JavaScript project, a classic online calculator</p>
-                    </a>
-                    <img class="project-image" src="./assets/Calculator-Project.png" alt="Calculator-Project">
-                    <a href="https://emilyroe.github.io/MorseCode-Translator/">
-                        <p class="project-titles">Morse Code Translator Project: Here will be some text, just a short line, describing the project</p>
-                    </a>
-                    <img class="project-image" src="./assets/morse-code.png" alt="Morse Code Translator image">
-                    <a href="https://emilyroe.github.io/JS-Game/">
-                        <p class="project-titles">JavaScript Game Project: info</p>
-                    </a>
-                    <img class="project-image" src="./assets/JS-game.png" alt="JavaScript Game Project">
-                    <a href="https://emilyroe.github.io/SpaceInvaders/">
-                        <p class="project-titles">Space Invaders Project: Here will be some text, just a short line, describing the project</p>
-                    </a>
-                    <img class="project-image" src="./assets/space-invaders.png" alt="Space Invaders Project">
-                    <p class="project-titles">Punk IPA React Project: Here will be some text, just a short line, describing the project</p>
-                    <p class="project-image">[Project 5 image]</p>
+                    <div class="calculator-proj">
+                        <div class="calculator-proj-text">
+                            <h4>Calculator Project</h4>
+                            <a href="https://github.com/EmilyRoe/JS-Calculator" target="_blank">
+                                <button class="btn">Code</button>
+                            </a>
+                            <a href="https://emilyroe.github.io/JS-Calculator/" target="_blank">
+                                <button class="btn">Live Project</button>
+                            </a>
+                        </div>
+                        <img class="calculator-project-image" src="./assets/Calculator-Project.png" alt="Calculator-Project">
+                    </div>
+                    <div class="morse-proj">
+                        <img class="morse-project-image" src="./assets/morse-code.png" alt="Morse Code Translator image">
+                        <div class="morse-proj-text"> 
+                            <h4>Morse Code Translator Project</h4>
+                            <a href="https://github.com/EmilyRoe/MorseCode-Translator" target="_blank">
+                                <button class="btn">Code</button>
+                            </a>
+                            <a href="" target="_blank">
+                                <button class="btn">Live Project</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="javascript-proj">
+                        <div class="javascript-proj-text">
+                            <h4>JavaScript Game Project</h4>
+                            <a href="https://github.com/EmilyRoe/JS-Game" target="_blank">
+                                <button class="btn">Code</button>
+                            </a>
+                            <a href="https://emilyroe.github.io/JS-Game/" target="_blank">
+                                <button class="btn">Live Project</button>
+                            </a>
+                        </div>
+                        <img class="javascript-project-image" src="./assets/JS-game.png" alt="JavaScript Game Project">
+                    </div>
+                    <div class="space-proj">
+                        <img class="space-project-image" src="./assets/space-invaders.png" alt="Space Invaders Project">
+                        <div class="space-proj-text">
+                            <h4>Space Invaders Game Project</h4>
+                            <a href="https://github.com/EmilyRoe/SpaceInvaders" target="_blank">
+                                <button class="btn">Code</button>
+                            </a>
+                            <a href="" target="_blank">
+                                <button class="btn">Live Project</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="punk-proj">
+                        <div class="punk-proj-text">
+                            <h4>Punk API Project</h4>
+                            <a href="https://github.com/EmilyRoe/react-punk-api" target="_blank">
+                                <button class="btn">Code</button>
+                            </a>
+                            <a href="" target="_blank">
+                                <button class="btn">Live Project</button>
+                            </a>
+                        </div>
+                        <img class="punk-project-image" src="./assets/PunkAPI.png" alt="Punk API Project">
+                    </div>
                 </div>
             </div>
         </section>
@@ -84,19 +126,12 @@
             <h1 id="skills-heading">Skills.</h1>
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <p id="skills-para-1">The Software Development course with _nology is designed to train me to be a job ready Junior Software Developer. 
-                        This was a challenging and rewarding course that I thoroughly enjoyed. I fit the training around my full-time job, studying in the evenings and weekends. 
-                        I believe my creative background will be a real asset in my career in Software Development as it will enable me to bring different perspectives to the role. </p>
-                    <p class="skills-para">Throughout this course I have built on my basic understanding on HTML and CSS and can now use both languages with confidence to create and style front-end projects. 
-                        I have also learnt JavaScript from scratch and gained a level of understanding which has enabled me to complete projects such as a calculator, 
-                        a morse code translator, a fully-functioning obstacle game and a space invaders style game as seen above. 
-                        I have also learnt the best practices for using JavaScript including Object Orientated Programming (OOP).</p>
+                    <p class="skills-para">Throughout this course I have built on my basic understanding on HTML and CSS and can now confidently use both languages to create and style front-end projects. 
+                        I have also learnt JavaScript from scratch and gained a level of understanding which has enabled me to complete the projects seen above. </p>
                     <p class="skills-para">In addition to this, I have gained confidence using React as a JavaScript framework 
-                        and learnt how to interact with APIs and implement them in to projects, 
-                        and I have had an introduction to how the back-end works with NodeJS and building a REST API.</p> 
-                    <p class="skills-para">I have also gained real work experience by working on a collaborative client project as my final assessment. 
-                        Using GitHib and Firebase, I have completed one section of a webpage for a start up in Bristol called Knowaste.</p>
-                    <p class="skills-para">I am now proficient in: HTML, CSS, JavaScript, incl. OOP, React, GitHub, Firebase, NoSQL databases, NodeJS, Testing</p>
+                        and learnt how to interact with APIs and implement them in to projects. 
+                        I have also had an introduction to how the back-end works with NodeJS and building a REST API.</p> 
+                    <p class="skills-para">I am now proficient in: HTML, CSS, JavaScript, incl. OOP, React, GitHub, Firebase, NoSQL databases, NodeJS, Testing. For more detail about my skills please see my C.V. or get in touch for a cover letter.</p>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <img src="./assets/daisy-5383056_1920.jpg" alt="image of a daisy">  
@@ -113,7 +148,7 @@
         </div>
 
         <section class="About-Me">
-            <h1 id="about-me-heading">About Me</h1>
+            <h1 id="about-me-heading">About Me.</h1>
             <p>I currently hold a position as a PR Senior Account Executive for a technology communications agency. 
                 Having retrained in software development I am now seeking new challenges as a Junior Software developer. 
                 Enthusiastic and passionate, I am incredibly excited to start my career in Software Development and to expand my knowledge and skills. 
@@ -132,17 +167,17 @@
                 <p>Email: <a href="mailto:emilyroe@hotmail.co.uk">emilyroe@hotmail.co.uk</a></p>
                 <p>Mobile: 07583054865</p>
                 <br>
-                <p>You can download my CV <a href="#">here</a>, or follow me on</p>
+                <p>You can download my CV <a href="https://resume.io/r/sFrzjRGBk">here</a>, or follow me on</p>
                 <hr color="white">
                 <div class="contact__icons">
                     <div>
-                        <a href="#">
+                        <a href="https://github.com/EmilyRoe">
                             <img class="contact__icons-pic" src="./assets/github-brands.svg" alt="Gitbub link">
                             <p class="contact__icons-text">Github</p>
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/emilyelizabethroe?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjamvcY2LQqqmN%2BDl0ci4RQ%3D%3D" target="_blank">
+                        <a href="https://www.linkedin.com/in/emilyelizabethroe" target="_blank">
                             <img class="contact__icons-pic" src="./assets/linkedin-in-brands.svg" alt="LinkedIn link">
                             <p class="contact__icons-text">LinkedIn</p>
                         </a>

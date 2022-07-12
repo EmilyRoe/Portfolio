@@ -28,11 +28,11 @@
         justify-content: center;
         align-items: center;
 
-        .project-titles {
-            padding: 10px 10px;
-            margin: 0px 0px;
-            font-size: 20px;
-        }
+        // .project-titles {
+        //     padding: 10px 10px;
+        //     margin: 0px 0px;
+        //     font-size: 20px;
+        // }
 
         .project-image {
             display: flex;
@@ -41,6 +41,137 @@
             border: none;
             justify-content: center;
             align-items: center;
+        }
+    }
+
+    .btn {
+        border-radius: 10px;
+        background-color: $color-primary;
+        color: white;
+    }
+
+    .calculator-proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid black;
+        width: 1000px;
+        height: 300px;
+        margin: 30px 30px;
+
+        .calculator-proj-text {
+            margin-top: 160px;
+        }
+
+        .calculator-project-image {
+            display: flex;
+            margin-left: 100px;
+            width: 75%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: -20px -20px 0px 0px $color-primary;
+        }
+    }
+
+    .morse-proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid black;
+        width: 1000px;
+        height: 300px;
+        margin: 30px 30px;
+
+        .morse-proj-text {
+            margin-top: 160px;
+        }
+
+        .morse-project-image {
+            display: flex;
+            margin-left: 100px;
+            width: 75%;
+            height: 80%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: -20px -20px 0px 0px $color-primary;
+        }
+    }
+
+    .javascript-proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid black;
+        width: 1000px;
+        height: 300px;
+        margin: 30px 30px;
+
+        .javascript-proj-text {
+            margin-top: 160px;
+        }
+
+        .javascript-project-image {
+            display: flex;
+            margin-left: 100px;
+            width: 75%;
+            height: 90%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: -20px -20px 0px 0px $color-primary;
+        }
+    }
+
+    .space-proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid black;
+        width: 1000px;
+        height: 300px;
+        margin: 30px 30px;
+
+        .space-proj-text {
+            margin-top: 160px;
+        }
+
+        .space-project-image {
+            display: flex;
+            margin-left: 100px;
+            width: 75%;
+            height: 90%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: -20px -20px 0px 0px $color-primary;
+        }
+    }
+
+    .punk-proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid black;
+        width: 1000px;
+        height: 300px;
+        margin: 30px 30px;
+
+        .punk-proj-text {
+            margin-top: 160px;
+        }
+
+        .punk-project-image {
+            display: flex;
+            margin-left: 100px;
+            width: 75%;
+            height: 90%;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: -20px -20px 0px 0px $color-primary;
         }
     }
 
