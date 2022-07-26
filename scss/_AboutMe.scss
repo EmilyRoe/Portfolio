@@ -2,11 +2,9 @@
     height: auto;
     width: 100%;
     background-color: $color-primary;
-    padding: 50px 70px;
+    padding: 50px 30px;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 
     #about-me-heading {
         display: flex;
@@ -24,7 +22,7 @@
         font-size: 25px; 
         text-align: right;
         margin: 50 100px;
-        padding: 0 50px;
+        padding: 0 0px;
         justify-content: right;
         align-items: right;
     }

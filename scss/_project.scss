@@ -3,6 +3,11 @@
     padding: 0 60px;
     width: 100%;
 
+    @media screen and (max-width: 500px) {
+        padding: 0 15px;
+        width: 100%;
+    }
+
     #projects-heading {
         display: flex;
         color: $color-black;
@@ -28,16 +33,9 @@
         justify-content: center;
         align-items: center;
 
-        // .project-titles {
-        //     padding: 10px 10px;
-        //     margin: 0px 0px;
-        //     font-size: 20px;
-        // }
-
         .project-image {
             display: flex;
-            width: 60%;
-            height: 250px;
+            width: 100%;
             border: none;
             justify-content: center;
             align-items: center;
@@ -50,129 +48,51 @@
         color: white;
     }
 
-    .calculator-proj {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        border-bottom: 2px solid black;
-        width: 1000px;
-        height: 300px;
-        margin: 30px 30px;
+    .project.reverse {
+        display: flex;
+        flex-direction: row-reverse;
 
-        .calculator-proj-text {
-            margin-top: 160px;
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
+        }
+    }
+
+    .project {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 30px 30px;
+        border-bottom: 2px solid black;
+        padding-bottom: 50px;
+
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
         }
 
-        .calculator-project-image {
+        .project-text {
+            margin-top: 160px;
+            padding-left: 20px;
+
+            @media screen and (max-width: 500px) {
+                margin-top: 10px;
+                padding-bottom: 50px;
+            }
+        }
+
+        .project-image {
             display: flex;
             margin-left: 100px;
-            width: 75%;
-            height: auto;
+            width: 50%;
             align-items: center;
             justify-content: center;
             border-radius: 15px;
             box-shadow: -20px -20px 0px 0px $color-primary;
+
+            @media screen and (max-width: 500px) {
+                margin-left: 0px;
+            }
         }
     }
-
-    .morse-proj {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        border-bottom: 2px solid black;
-        width: 1000px;
-        height: 300px;
-        margin: 30px 30px;
-
-        .morse-proj-text {
-            margin-top: 160px;
-        }
-
-        .morse-project-image {
-            display: flex;
-            margin-left: 100px;
-            width: 75%;
-            height: 80%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            box-shadow: -20px -20px 0px 0px $color-primary;
-        }
-    }
-
-    .javascript-proj {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        border-bottom: 2px solid black;
-        width: 1000px;
-        height: 300px;
-        margin: 30px 30px;
-
-        .javascript-proj-text {
-            margin-top: 160px;
-        }
-
-        .javascript-project-image {
-            display: flex;
-            margin-left: 100px;
-            width: 75%;
-            height: 90%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            box-shadow: -20px -20px 0px 0px $color-primary;
-        }
-    }
-
-    .space-proj {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        border-bottom: 2px solid black;
-        width: 1000px;
-        height: 300px;
-        margin: 30px 30px;
-
-        .space-proj-text {
-            margin-top: 160px;
-        }
-
-        .space-project-image {
-            display: flex;
-            margin-left: 100px;
-            width: 75%;
-            height: 90%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            box-shadow: -20px -20px 0px 0px $color-primary;
-        }
-    }
-
-    .punk-proj {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        border-bottom: 2px solid black;
-        width: 1000px;
-        height: 300px;
-        margin: 30px 30px;
-
-        .punk-proj-text {
-            margin-top: 160px;
-        }
-
-        .punk-project-image {
-            display: flex;
-            margin-left: 100px;
-            width: 75%;
-            height: 90%;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            box-shadow: -20px -20px 0px 0px $color-primary;
-        }
-    }
-
 }
